@@ -1,0 +1,32 @@
+getwd()
+..output current working directory
+
+dir()
+..prints contents of current working directory
+
+read.csv("mydata.csv")
+..reads specified data file, so long as it's in your pwd
+
+source("mycode.R")
+..loads the code in this function
+ls()
+..does something...?
+
+...functions have to be sourced first in order to be called at the command line
+
+
+---
+CLI terminology:
+commands - the action
+flag - often preceded by a dash
+arguments
+
+
+common commands:
+pwd ...print working directory
+ls ...list files and folders in the current directory
+cd ... change directory. without arguments, will take you to your home directory. with the argument of the directory you want to go to, cd will take you to that directory. with the agrument ".." cd will take you up a level.
+mkdir ...make directory
+touch ...creates an empty file
+cp ...copy, takes 2 arguments: the file you want to copy, and the place to which you want to copy the file to
+
